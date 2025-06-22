@@ -1,6 +1,2 @@
 # Ignore the 'Myenv' directory
 Myenv/
-
-# Ignore the 'dataset' directory
-dataset/
-
