@@ -5,11 +5,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('Models\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('Models\\diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('Models\heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('Models\\heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('Models\parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('Models\\parkinsons_model.sav', 'rb'))
 
 
 
@@ -35,7 +35,7 @@ if (selected == 'Diabetes Prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        Pregnancies = st.text_input('Number of Pregnancies')
+        Pregnancies = st.text_input('Family History affected by Diabetes')
         
     with col2:
         Glucose = st.text_input('Glucose Level')
